@@ -1,12 +1,12 @@
 {
-  "name": "yourname/laravel-modulizer",
+  "name": "carlcandels/laravel-modulizer",
   "description": "A Laravel 12-compatible package for modular architecture.",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "Your Name",
-      "email": "you@example.com"
+      "name": "Carlo Candelaria",
+      "email": "carlcandels24@gmail.com"
     }
   ],
   "require": {
@@ -15,13 +15,13 @@
   },
   "autoload": {
     "psr-4": {
-      "YourName\\Modulizer\\": "src/"
+      "Carlcandels\\Modulizer\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "YourName\\Modulizer\\ModulizerServiceProvider"
+        "Carlcandels\\Modulizer\\ModulizerServiceProvider"
       ]
     }
   }
